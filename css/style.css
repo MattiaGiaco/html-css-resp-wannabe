@@ -71,9 +71,6 @@ img{
     width: 420px;
     margin: 0 auto;
   }
-  .container.grey{
-    background-color: transparent;
-  }
   #lezioni .row,
   #why .row{
     background-color: blanchedalmond;
@@ -94,5 +91,40 @@ img{
   }
   .row hr{
     margin: 5px 0;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 780px) {  
+
+  *{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #lezioni .row,
+  #why .row{
+    background-color: blanchedalmond;
+  }
+  .row{
+    width: 780px;
+    margin: 0 auto;
+  }
+  .row hr{
+    margin: 5px 0;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .right,
+  .row h1,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #why .row .first,
+  #why .row .second,
+  #why .row .third{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
   }
 }
